@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ex04</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <form action="/my-handling-form-page" method="post">
+                <p>
+                    <label for="Full_Name">Full Name:</label>
+                    <input type="text" id="Full_Name" name="user_name" required/>
+                </p>
+                <p>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" required/>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="user_message" minlength="5" required />
+                </p>
+                <p>
+                    <label for="agree">I agree to the terms and conditions</label>
+                    <input type="checkbox" id="agree" name="user_agree" value="yes" required />
+                </p>
+
+                <p>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required />
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <p>
+                <label for="country">Country:</label>
+                <select id="country" name="user_country" required>
+                    <option value="">Please select a country</option>
+                    <option value="jo">Jordan</option>
+                    <option value="ps">Palestine</option>
+                    <option value="sa">Saudi Arabia</option>
+                </select>
+            </p>
+                <p>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+
+    </body>
+</html>
+
