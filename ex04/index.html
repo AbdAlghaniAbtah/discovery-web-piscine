@@ -1,29 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>ex04</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
-    <h1>The CSS Box Model</h1>
-
-    <section>
-        <h2>Content-box</h2>
-        <div class="content-box">
-            <p>Content-box: width is for content only.</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Border-box</h2>
-        <div class="border-box">
-            <p>Border-box: width includes padding and border.</p>
-        </div>
-    </section>
-
+    <h1>Task Manager</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task...">
+    <button id="addBtn">Add</button>
+    <p id="counter">Total tasks: 0</p>
+    <ul id="taskList"></ul>
 </body>
 </html>

@@ -1,23 +1,46 @@
-*,
-*::before,
-*::after {
-    margin: 0;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
     padding: 0;
-    box-sizing: border-box;
+    margin-top: 20px;
 }
 
-.content-box {
-    box-sizing: content-box;
-    width: 300px;
-    padding: 20px;
-    border: 4px solid black;
-    margin: 20px;
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin: 8px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.border-box {
-    box-sizing: border-box;
-    width: 300px;
-    padding: 20px;
-    border: 4px solid black;
-    margin: 20px;
+li span {
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
 }

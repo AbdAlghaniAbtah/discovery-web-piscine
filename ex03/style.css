@@ -1,65 +1,17 @@
-.color-swatch {
-    width: 150px;
-    height: 100px;
-    border: 2px solid black;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
 }
 
-.opacity-comparison {
-    background-color: #ca9696;
+#count {
+    font-size: 40px;
+    font-weight: bold;
 }
 
-.named-red {
-    background-color: red;
-}
-
-.named-blue {
-    background-color: blue;
-}
-
-.named-green {
-    background-color: green;
-}
-
-.hex-red {
-    background-color: #FF0000;
-}
-
-.hex-purple {
-    background-color: #800080;
-}
-
-.hex-orange {
-    background-color: #FFA500;
-}
-
-.rgb-blue {
-    background-color: rgb(0, 0, 255);
-}
-
-.rgb-yellow {
-    background-color: rgb(255, 255, 0);
-}
-
-.rgb-cyan {
-    background-color: rgb(0, 255, 255);
-}
-
-.rgba-red {
-    background-color: rgba(255, 0, 0, 0.5);
-}
-
-.rgba-blue {
-    background-color: rgba(0, 0, 255, 0.5);
-}
-.opacity-box {
-    width: 200px;
-    height: 100px;
-    background-color: red;
-    opacity: 0.5;
-}
-
-.rgba-box {
-    width: 200px;
-    height: 100px;
-    background-color: rgba(255, 0, 0, 0.5);
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
 }
